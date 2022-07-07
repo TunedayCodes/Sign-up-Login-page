@@ -1,21 +1,21 @@
 body {
-    background-color: #FFF89A;
-    font-family: "Roboto", sans-serif;
+  background-color: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .signup-box {
     width: 360px;
-    height: 620px;
+    height: 650px;
     margin: auto;
     background-color: #FF8AAE;
-    border-radius: 3px;
+    border-radius: 18px;
   }
   
   .login-box {
     width: 360px;
     height: 280px;
     margin: auto;
-    border-radius: 3px;
+    border-radius: 18px;
     background-color: #FF8AAE;
   }
   
@@ -47,15 +47,19 @@ body {
     border-radius: 10px;
     outline: none;
   }
-  input[type="button"] {
+
+button {
     width: 320px;
     height: 35px;
     margin-top: 20px;
     border: none;
     background-color: #9ADCFF;
-    color: white;
-    font-size: 18px;
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
   }
+
   p {
     text-align: center;
     padding-top: 20px;
@@ -65,8 +69,9 @@ body {
   .para-2 {
     text-align: center;
     color: #49c1a2;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: -10px;
+    font-weight: 500;
   }
   .para-2 a {
     color: #49c1a2;
@@ -78,4 +83,9 @@ body {
     color: black;
   }
   
+  footer p {
+    color:chocolate;
+    font-size: 12px;
+    font-family: monospace;
+  }
   

@@ -16,20 +16,20 @@
 
 <body>
     <div class="signup-box">
-      <h1>Sign Up</h1>
+      <h1>Register with us today!</h1>
       <h4>It's free and only takes a minute</h4>
       <form>
         <label>First Name</label>
-        <input type="text" placeholder="" />
+        <input type="text" placeholder="please indicate your first name" name="firstname" required />
         <label>Last Name</label>
-        <input type="text" placeholder="" />
+        <input type="text" placeholder="please indicate your last name" name="lastname" required />
         <label>Email</label>
         <input type="email" placeholder="" />
         <label>Password</label>
         <input type="password" placeholder="" />
         <label>Confirm Password</label>
         <input type="password" placeholder="" />
-        <input type="button" value="Submit" />
+        <button type="submit">Sign Up</button>
       </form>
       <p>
         By clicking the Sign Up button,you agree to our <br />
@@ -37,7 +37,7 @@
       </p>
     </div>
     <p class="para-2">
-      Already have an account? <a href="login.html">Login here</a>
+      Already have an account? <a href="login.html"><span>Login here</span></a>
     </p>
 
 <!-- LOGIN -->
@@ -46,14 +46,18 @@
       <h1>Login</h1>
       <form>
         <label>Email</label>
-        <input type="email" placeholder="" />
+        <input type="email" placeholder="" name="email" required />
         <label>Password</label>
         <input type="password" placeholder="" />
-        <input type="button" value="Submit" />
+        <button type="submit">Login</button>
       </form>
     </div>
     <p class="para-2">
       Not have an account? <a href="signup.html">Sign Up Here</a>
     </p>
+
+<footer>
+  <p>Tunde Fadipe © 2022.</p>
+</footer>
 </body>
 </html>
